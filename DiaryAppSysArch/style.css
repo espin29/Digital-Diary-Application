@@ -1,0 +1,327 @@
+body {
+    background: #b7d8de;
+    font-family: "Poppins", sans-serif;
+}
+
+.placeholder {
+    font-family: 'Poppins';
+}
+
+.heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 1rem auto;
+    text-align: center;
+    color: #000;
+}
+.heading_diary {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    margin: 1rem auto;
+    text-align: center;
+    color: #000;
+}
+u {
+    cursor: pointer;
+    color: #2d9bbd;
+}
+
+u:hover{
+    color: #FE7236;
+}
+
+/*------------------------------------------------------------------------ */
+/* DIVS and INPUT */
+.box {
+    max-width: 30rem;
+    padding: 10px;
+    width: 100%;
+    background-color: #fbf5ef;
+    border: 1px solid #fbf5ef;
+    border-radius: 2rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    font-size: 14px;
+  }
+
+.container_diary {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.container_story {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.box_diary {
+    max-width: 100%;
+    padding: 20px;
+    width: 100%;
+    background-color: #fbf5ef;
+    border: 1px solid #fbf5ef;
+    border-radius: 2rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.agree {
+    justify-content: left;
+    text-align: left;
+    padding-left: 2px;
+}
+.agree input{
+    width: 15px;
+    margin-left: 120px;
+    padding-top: 10px;
+
+}
+span {
+    position:absolute;
+    padding-top:6px;
+    padding-left: 6px;
+}
+
+input {
+    padding: 9px 0px 7px 9px;
+    font-size: 14px;
+    width: 15rem;
+    height: 1.5rem;
+    outline: none;
+    background: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #efefef;
+    margin: 5px ;
+}
+
+.searchbar {
+    margin-top: 5px;
+    margin-right: 795px;
+    margin-bottom: 20px;
+    color: #FBF5EF;
+}
+
+.search_bar {
+    border-radius: 50px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+textarea {
+    padding: 9px 0px 7px 9px;
+    font-size: 14px;
+    width: 400px;
+    height: 150px;
+    outline: none;
+    background: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #efefef;
+    margin: 5px ;
+    resize: none;
+}
+
+select {
+    font-family: 'Poppins';
+}
+
+/*-------------------------------------------------------------------------*/
+/* Buttons */
+.reg_btn {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 1px;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    background-color: #FE7236;
+    color: #fbf5ef;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.reg_btn:hover {
+    background-color: #ff5005;
+}
+
+.login_btn {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 1px;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    background-color: #6cb5cb;
+    color: #fbf5ef;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.login_btn:hover {
+    background-color: #2d9bbd;
+}
+
+.actions {
+    display:inline-flex;
+}
+
+button {
+    cursor: pointer;
+    border: 3px solid transparent;
+    font-size: 16px;
+    background-color: #FE7236;
+    margin: 5px;
+    color: white;
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.view {
+    border-radius: 50%;
+    text-align: center;
+}
+
+.edit {
+    border-radius: 50%;
+}
+
+.delete {
+    border-radius: 50%;
+}
+
+.alr {
+    font-size: 12px;
+}
+
+.add_btn {
+    color: #FE7236;
+    border: 1px solid transparent;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 50px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 400px;
+}
+
+.search_btn {
+    color: #FBF5EF;
+    border: 1px solid transparent;
+    background-color: #2d9bbd;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 7px;
+}
+
+.logout_btn {
+    color: white;
+    border: 1px solid transparent;
+    background-color: #FE7236;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 460px;
+}
+
+.diary_page {
+    color: white;
+    border: 1px solid transparent;
+    background-color: #2d9bbd;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: -68px;
+    margin-left: 320px;
+    margin-right: -370px;
+    display: inline-flex;
+    position: absolute;
+}
+
+/*Table and Table Elements*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    border: 1px solid transparent;;
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+    background-color: #2d9bbd;
+    color: #fbf5ef;
+  }
+
+td {
+    border: 1px solid transparent;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+  }
+
+tr.border td {
+    border-bottom: 1pt solid #2d9bbd;
+}
+
+/*------------------------------------------------------------------------*/
+/* Curved Borders */
+.dn {
+    border-top-left-radius: 1rem;
+}
+
+.act {
+    border-top-right-radius: 1rem;
+}
+/*------------------------------------------------------------------------*/
